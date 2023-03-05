@@ -5,6 +5,30 @@ import Image from "next/image";
 function card() {
   return (
     <section className="bg-white px-12 text-black">
+      <div className="flex flex-col sm:flex-row items-center my-4 px-6 py-4 bg-white rounded-lg shadow-md">
+        <div className="w-full sm:w-1/2 mb-4 sm:mb-0">
+          <img
+            className="w-full h-full object-fit rounded-md"
+            src="./pexels-alesia-kozik-6780789 1.png"
+            alt="Placeholder image"
+          ></img>
+        </div>
+        <div className="w-full sm:w-1/2 sm:pl-8">
+          <h3 className="text-lg font-semibold text-black mb-2">
+            Will Blockchains Bring the Winds of Change Post COVID?
+          </h3>
+          <p className="text-gray-700 mb-4">
+            Since the beginning of the Coronavirus pandemic, banks everywhere
+            have been facing new challenges. Interest margins and income fees
+            are under pressure to change, NPAs are imminent as the corporate
+            sector fights for survival, and the need ...
+          </p>
+          <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+            Read More
+          </button>
+        </div>
+      </div>
+
       <div className="w-100 mx-auto">
         <div className="flex items-center">
           <hr className="border-t border-black flex-grow"></hr>
