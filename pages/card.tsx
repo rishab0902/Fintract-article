@@ -5,6 +5,14 @@ import Image from "next/image";
 function card() {
   return (
     <section className="bg-white px-12 text-black">
+      <div className="w-100 mx-auto">
+        <div className="flex items-center">
+          <hr className="border-t border-black flex-grow"></hr>
+          <h6 className="text-4xl font-bold text-black mx-4">Technology</h6>
+          <hr className="border-t border-black flex-grow"></hr>
+        </div>
+      </div>
+
       <div className="container ">
         <div
           className="grid grid-cols-1 gap-4 md:grid-cols-1 xl:grid-cols-3 pt-20 pb-10 lg:pt-40 lg:pb-20 "
