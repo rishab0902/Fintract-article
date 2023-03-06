@@ -6,9 +6,10 @@ function card() {
   return (
     <section className="bg-white px-12 text-black">
       <div className="flex flex-col sm:flex-row items-center my-4 px-6 py-4 bg-white rounded-lg shadow-md">
-        <div className="w-full sm:w-1/2 mb-4 sm:mb-0">
+        <div className="w-full mb-4 sm:mb-0">
           <img
             className="w-full h-full object-fit rounded-md"
+            style={{ maxHeight: "400px", maxWidth: "500px" }}
             src="./pexels-alesia-kozik-6780789 1.png"
             alt="Placeholder image"
           ></img>
@@ -28,6 +29,7 @@ function card() {
           </button>
         </div>
       </div>
+      {/* Technology starts */}
 
       <div className="w-100 mx-auto">
         <div className="flex items-center">
