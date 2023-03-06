@@ -153,7 +153,6 @@ export default function NavBar() {
         </nav>
         {/* hero section */}
 
-        
         <section
           className="bg-white border rounded-[80px] w-[80vw] h-[40vh] mx-auto mt-10 flex items-center"
           style={{
@@ -171,8 +170,13 @@ export default function NavBar() {
             </p>
           </div>
         </section>
-        <div className="flex items-center bg-gray-100 rounded-full  max-w-sm mx-auto mt-neg-50  p-4 drop-shadow-lg">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"  width="20" height="20">
+        <div className="flex items-center bg-gray-100 rounded-full  max-w-sm {max-width: 20rem;} mx-auto mt-neg-50  p-4 drop-shadow-lg">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 512 512"
+            width="20"
+            height="20"
+          >
             <path
               fill="black"
               d="M502.4 475.4L370.1 343.1c29.4-35.7 47.1-81.1 47.1-130.2C417.2 96.9 320.3 0 208.6 0S0 96.9 0 216.9s96.9 216.9 216.9 216.9c49.1 0 94.5-17.7 130.2-47.1l132.3 132.3c7.8 7.8 20.5 7.8 28.3 0l22.6-22.6c7.8-7.8 7.8-20.5 0-28.3zM216.9 384C126.2 384 54 311.8 54 216.9S126.2 49.7 216.9 49.7s162.9 72.2 162.9 167.1c0 94.9-72.2 167.1-162.9 167.1z"
