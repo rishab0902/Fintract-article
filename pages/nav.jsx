@@ -170,7 +170,7 @@ export default function NavBar() {
             </p>
           </div>
         </section>
-        <div className="flex items-center bg-gray-100 rounded-full  max-w-sm {max-width: 20rem;} mx-auto mt-neg-50  p-4 drop-shadow-lg">
+        <div className="flex items-center bg-gray-100 rounded-full w-80 md:w-auto md:max-w-sm mx-auto mt-neg-50 p-4 drop-shadow-lg">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 512 512"
