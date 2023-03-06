@@ -154,7 +154,7 @@ export default function NavBar() {
         {/* hero section */}
 
         <section
-          className="bg-white border rounded-[80px] w-[80vw] h-[40vh] mx-auto mt-10 flex items-center"
+          className="bg-white border rounded-[70px] w-[80vw] h-[40vh] mx-auto mt-10 flex items-center mb-4"
           style={{
             backgroundImage: `url("/Group 57.png")`,
             backgroundRepeat: `no-repeat`,
@@ -162,10 +162,10 @@ export default function NavBar() {
           }}
         >
           <div class="mx-auto max-w-3xl text-center">
-            <p class="mx-auto  text-7xl  font-bold sm:leading-relaxed text-white-900">
+            <p class="mx-auto  text-7xl  font-bold sm:leading-relaxed text-white">
               Articles
             </p>
-            <p class="mx-auto  text-xl  font-medium sm:leading-relaxed text-white-900">
+            <p class="mx-auto  text-xl  font-medium sm:leading-relaxed text-white">
               The Latest Information on the trends in Fintech
             </p>
           </div>
