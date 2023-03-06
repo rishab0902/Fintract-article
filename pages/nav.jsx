@@ -6,11 +6,8 @@ export default function NavBar() {
 
   return (
     <>
-      <section
-        className="bg-gray-900 text-white "
-        style={{ backgroundImage: `url("/Group 54.png")` }}
-      >
-        <nav className="w-full bg-white-100 shadow">
+      <header className="bg-white">
+        <nav className="w-full bg-black shadow">
           <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
             <div>
               <div className="flex items-center justify-between py-3 md:py-5 md:block ">
@@ -140,7 +137,7 @@ export default function NavBar() {
               </a>
               <a
                 href="javascript:void(0)"
-                className="px-4 py-3 text-white bg-black  shadow "
+                className="px-4 py-3 text-white bg-blue-500  shadow "
               >
                 Sign up
               </a>
@@ -156,25 +153,38 @@ export default function NavBar() {
         </nav>
         {/* hero section */}
 
-        <div class="mx-auto max-w-screen-xl px-4 py-32 lg:flex lg:h-screen lg:items-center">
+        
+        <section
+          className="bg-white border rounded-[80px] w-[80vw] h-[40vh] mx-auto mt-10 flex items-center"
+          style={{
+            backgroundImage: `url("/Group 57.png")`,
+            backgroundRepeat: `no-repeat`,
+            backgroundPosition: `cover`,
+          }}
+        >
           <div class="mx-auto max-w-3xl text-center">
-            <p class="mx-auto mt-4 max-w-xl sm:text-xl sm:leading-relaxed">
-              Our aim is to help accelerate client growth, strengthen their
-              market base and amplify the volume of transactions through our
-              qualityfocused products.
+            <p class="mx-auto  text-7xl  font-bold sm:leading-relaxed">
+              Articles
             </p>
-
-            <div class="mt-8 flex flex-wrap justify-center gap-4">
-              <a
-                class="block w-full rounded border border-blue-600 bg-blue-600 px-12 py-3 text-sm font-medium text-white hover:bg-transparent hover:text-white focus:outline-none focus:ring active:text-opacity-75 sm:w-auto"
-                href="/get-started"
-              >
-                CONTACT US
-              </a>
-            </div>
+            <p class="mx-auto  text-xl  font-medium sm:leading-relaxed">
+              The Latest Information on the trends in Fintech
+            </p>
           </div>
+        </section>
+        <div className="flex items-center bg-gray-100 rounded-full  max-w-sm mx-auto mt-neg-50  p-4 drop-shadow-lg">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"  width="20" height="20">
+            <path
+              fill="black"
+              d="M502.4 475.4L370.1 343.1c29.4-35.7 47.1-81.1 47.1-130.2C417.2 96.9 320.3 0 208.6 0S0 96.9 0 216.9s96.9 216.9 216.9 216.9c49.1 0 94.5-17.7 130.2-47.1l132.3 132.3c7.8 7.8 20.5 7.8 28.3 0l22.6-22.6c7.8-7.8 7.8-20.5 0-28.3zM216.9 384C126.2 384 54 311.8 54 216.9S126.2 49.7 216.9 49.7s162.9 72.2 162.9 167.1c0 94.9-72.2 167.1-162.9 167.1z"
+            />
+          </svg>
+          <input
+            className="bg-gray-100 flex-grow px-2 border-white text-sm text-gray-700"
+            type="text"
+            placeholder="Search Articles"
+          />
         </div>
-      </section>
+      </header>
     </>
   );
 }
