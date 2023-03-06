@@ -1,4 +1,3 @@
-
 import React from "react";
 import Image from "next/image";
 function card() {
@@ -6,12 +5,14 @@ function card() {
     <section className="bg-white px-12 text-black">
       <div className="flex flex-col sm:flex-row items-center my-4 px-6 py-4 bg-white rounded-lg shadow-md">
         <div className="w-full mb-4 sm:mb-0">
-          <img
+          <Image
             className="w-full h-full object-fit rounded-md"
             style={{ maxHeight: "400px", maxWidth: "500px" }}
-            src="./pexels-alesia-kozik-6780789 1.png"
+            src="/pexels-alesia-kozik-6780789 1.png"
             alt="Placeholder image"
-          ></img>
+            width={500}
+            height={400}
+          />
         </div>
         <div className="w-full sm:w-1/2 sm:pl-8">
           <h3 className="text-lg font-semibold text-black mb-2">
