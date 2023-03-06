@@ -162,10 +162,10 @@ export default function NavBar() {
           }}
         >
           <div class="mx-auto max-w-3xl text-center">
-            <p class="mx-auto  text-7xl  font-bold sm:leading-relaxed">
+            <p class="mx-auto  text-7xl  font-bold sm:leading-relaxed text-white-900">
               Articles
             </p>
-            <p class="mx-auto  text-xl  font-medium sm:leading-relaxed">
+            <p class="mx-auto  text-xl  font-medium sm:leading-relaxed text-white-900">
               The Latest Information on the trends in Fintech
             </p>
           </div>
