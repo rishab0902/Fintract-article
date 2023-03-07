@@ -3,8 +3,13 @@ import Image from "next/image";
 function footer() {
   return (
     <footer aria-label="Site Footer" className="bg-black">
+
+
       <div className="max-w-screen-xl px-10 py-16 mx-auto space-y-3 sm:px-6 lg:space-y-10 lg:px-8">
+
         <div className="grid grid-cols-2 gap-1 lg:grid-cols-2">
+
+
           <div>
             <div className="text-teal-600">
               <Image
@@ -17,7 +22,7 @@ function footer() {
             <h1 className=" bg-clip-text text-3xl font-bold text-white sm:text-3xl">
               Fintract Global
             </h1>
-            <p className="max-w-xs mt-4 text-gray-500">
+            <p className="max-w-xs mt-4 text-gray-500 text-left">
               At Fintract Global Ltd, we combine a cutting edge tech stack with
               exceptional talent from Europe, Asia and America to lead change in
               how financial entities work. Headquartered in London, Fintract
@@ -92,18 +97,19 @@ function footer() {
           </div>
 
           <div>
-            <nav aria-label="Footer Navigation - Legal" className="mt-6">
-              <ul className="space-y-4 text-sm">
+            <nav aria-label="Footer Navigation - Legal">
+              <ul className=" text-sm">
+                
                 <li>
-                  <div class="flex items-center relative p-4 w-full bg-black rounded-lg overflow-hidden shadow hover:shadow-md">
-                    <div class="w-12 h-12  ">
+                  <div class="flex items-start relative py-4 w-full bg-black rounded-lg overflow-hidden shadow hover:shadow-md">
+                   
                       <Image
                         src="/Group 91.png"
                         alt="Picture of the author"
-                        width={70}
-                        height={70}
+                        width={45}
+                        height={45}
                       />
-                    </div>
+                   
                     <div class="ml-3">
                       <p class="font-medium text-white">Address</p>
                       <p class="text-xs text-white mt-2">
@@ -114,15 +120,15 @@ function footer() {
                   </div>
                 </li>
                 <li>
-                  <div class="flex items-center relative p-4 w-full bg-black rounded-lg overflow-hidden shadow hover:shadow-md">
-                    <div class="w-12 h-12  ">
+                  <div class="flex items-center relative py-4 w-full bg-black rounded-lg overflow-hidden shadow hover:shadow-md">
+                   
                       <Image
                         src="/Group 92.png"
                         alt="Picture of the author"
-                        width={70}
-                        height={70}
+                        width={45}
+                        height={45}
                       />
-                    </div>
+                   
                     <div class="ml-3">
                       <p class="font-medium text-white">Phone</p>
                       <p class="text-xs text-white mt-2">+44-2037373227</p>
@@ -130,15 +136,15 @@ function footer() {
                   </div>
                 </li>
                 <li>
-                  <div class="flex items-center relative p-4 w-full bg-black rounded-lg overflow-hidden shadow hover:shadow-md">
-                    <div class="w-12 h-12  ">
+                  <div class="flex items-center relative py-4 w-full bg-black rounded-lg overflow-hidden shadow hover:shadow-md">
+                   
                       <Image
                         src="/Group 93.png"
                         alt="Picture of the author"
-                        width={70}
-                        height={70}
+                        width={45}
+                        height={45}
                       />
-                    </div>
+                  
                     <div class="ml-3">
                       <p class="font-medium text-white">Email</p>
                       <p class="text-xs text-white mt-2">
