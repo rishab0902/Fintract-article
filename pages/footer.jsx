@@ -17,7 +17,7 @@ function footer() {
           <h1 className=" bg-clip-text text-3xl font-bold text-white sm:text-3xl">
             Fintract Global
           </h1>
-          <p className="max-w-xs mt-4 text-gray-500 text-left">
+          <p className="max-w-xs mt-4 text-white text-left">
             At Fintract Global Ltd, we combine a cutting edge tech stack with
             exceptional talent from Europe, Asia and America to lead change in
             how financial entities work. Headquartered in London, Fintract
@@ -61,7 +61,7 @@ function footer() {
                 href="/"
                 rel="noreferrer"
                 target="_blank"
-                className="text-gray-700 transition hover:opacity-75"
+                className="text-gray-700 transition hover:opacity-75 bg-black"
               >
                 <span className="sr-only">Twitter</span>
                 <Image
@@ -148,7 +148,7 @@ function footer() {
           </nav>
         </div>
         {/* </div> */}
-        <p className="text-xs text-gray-500 text-center max-w-4xl mx-auto my-1">
+        <p className="text-xs text-white text-center max-w-4xl mx-auto my-1">
           Fintract Global takes your privacy very seriously. We may process your
           personal information for carefully considered and specific purposes
           which are in our interests and enable us to enhance the services we
@@ -156,7 +156,7 @@ function footer() {
           Privacy Policy to learn more about these interests and when we may
           process your information in this way.
         </p>
-        <p className="text-xs text-gray-500 text-center   mx-auto mt-0">
+        <p className="text-xs text-white text-center   mx-auto mt-0">
           © 2022. Company Name. All rights reserved.
         </p>
       </div>
